@@ -15,7 +15,7 @@
         .container{
             width: 80%;
             height: 400px;
-            background-color: black;
+            /* background-color: black; */
             color: aliceblue;
             display: flex;
             justify-content: center;
@@ -39,16 +39,31 @@
         }
         .child{
             gap: 5px;
+            display: flex;
+            background-color: rgb(124, 121, 121);
+            height: 100%;
+            width: 100%;
+            
+            
 
 
+        }
+        .left{
+            width: 70%;
+            height: 100%;
+        
+
+        }
+        .child .left{
+            width: 70%;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h3>cours flex</h3>
-        <div class="row row1"><div class="child"></div>
-        <div class="child"></div></div>
+        <div class="row row1"><div class="child">7</div>
+        <div class="child"><div class="left">3</div></div></div>
         <div class="row row2"></div>
         <div class="row row3"></div>
     </div>
